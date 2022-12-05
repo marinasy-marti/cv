@@ -3,8 +3,8 @@ import Education from './Education.jsx'
 import Work  from './Work.jsx';
 import '../styles/App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone,faHome, faLanguage, faEnvelope,faMapMarker} from '@fortawesome/free-solid-svg-icons'
-import {faWhatsapp, faGithub, faLinkedin,faMap} from '@fortawesome/free-brands-svg-icons'
+import { faPhone, faLanguage, faEnvelope,faMapMarker} from '@fortawesome/free-solid-svg-icons'
+import {faWhatsapp, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
 function App() {
   const callIcon = <FontAwesomeIcon icon = {faPhone} />
