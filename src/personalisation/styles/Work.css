@@ -1,0 +1,50 @@
+
+
+.education{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.year-box{
+    border-right: 2px solid  rgb(238, 150, 150,0.3    );
+    width: 130px;
+    margin-right: 5px;
+    font-weight: 200;
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+.year{
+    text-align: center;
+}
+.place-box{
+    display: flex; 
+    flex-direction: column;
+}
+.place-name{
+    font-family: "Ubuntu";
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(245, 135, 135);
+}
+
+ul li{
+    color: rgba(97, 90, 90, 0.705);  
+}
+
+.place-desc{
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: "Ubuntu";
+    color: rgba(97, 90, 90, 0.705);
+    text-transform: uppercase;
+}
+
+.year{
+    font-family: monospace;
+    font-size: 1rem;
+    color:rgba(97, 90, 90, 0.705);
+    padding: 10px 10px;
+    border-radius: 20px;
+    text-align: center;
+}

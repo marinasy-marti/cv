@@ -1,11 +1,46 @@
-@page {
-    size: A4;
-    margin: 0;
-  }
-  @media print {
-    html, body {
-      width: 210mm;
-      height: 297mm;
-    }
-    /* ... the rest of the rules ... */
-  }
+@page { 
+  margin:0;
+  padding:0;
+}
+
+.mizara-roa{
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.mizara-roa .zanaka:nth-child(1){
+  flex:0.8;
+}
+
+.mizara-roa .zanaka:nth-child(2){
+  width: 4px;
+  background: linear-gradient(45deg, blue, lightblue);
+}
+
+.mizara-roa .zanaka:nth-child(3){
+  flex:3;
+}
+
+p{
+  line-height: 115%;
+    margin-bottom: 0.1in;
+    background: transparent;
+    background: transparent 
+}
+.soratra-avanana{
+  text-align: right;
+}
+
+.mampiazara{
+  background: linear-gradient(45deg, blue, lightblue);
+  height: 4px;
+}
+a:link {
+  color: #000080;
+  text-decoration: underline 
+}
+
+a:visited { 
+  color: #800000;
+  text-decoration: underline 
+}

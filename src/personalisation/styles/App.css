@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+
+@page { 
+  margin:0;
+  padding:0;
+}
+*{
+  font-family: "Ubuntu";  
+}
+.content-title{
+  width: 100%;
+  border-bottom: 2px solid rgb(238, 150, 150);
+  padding-left: 10px;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color:  rgb(65, 199, 243);
+}
+
+.mizara-roa{
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.mizara-roa .zanaka:nth-child(1){
+  flex:0.8;
+  max-width: 150px;
+}
+
+.mizara-roa .zanaka:nth-child(2){
+  width: 4px;
+  background: linear-gradient(45deg, rgb(65, 199, 243), rgb(238, 150, 150));
+}
+
+.mizara-roa .zanaka:nth-child(3){
+  flex:3;
+}
+
+p{
+  line-height: 115%;
+    margin-bottom: 0.1in;
+    background: transparent;
+    background: transparent 
+}
+.soratra-avia{
+  text-align: left;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  padding-left: 20px;
+  color: rgba(97, 90, 90, 0.705);
+}
+.soratra-agnivo{
+  text-align: center;
+  color:  rgb(238, 150, 150);
+}
+
+.mampizara{
+  background: linear-gradient(45deg, rgb(65, 199, 243), rgb(238, 150, 150));
+  height: 4px;
+}
+
+.top{
+  margin-top: 20px;
+}
+a:link {
+  color: #000080;
+  text-decoration: underline 
+}
+
+a:visited { 
+  color: #800000;
+  text-decoration: underline 
+}
+
+/****** aside ****/
+aside table{
+  padding:0;
+  margin: 0;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+aside{
+  overflow-wrap: break-word;
+}
+aside table tr td{
+  font-size: 0.8em;
+  overflow-wrap: break-word;
+  color: rgba(97, 90, 90, 0.705);
+}
+
+aside ul li{
+  list-style:none;
+  font-size: 0.8rem;
+
+}
+aside ul li .mail{
+  overflow-wrap:normal;
+}
+
+aside ul li .info{
+  display: flex; 
+  flex-direction: row;
+}
+
+aside ul li .ico{
+  display: block;
+  width: 5px;
+  height: 5px;
+
+  border: 1px solid black;
+}
+
+.first{
+  margin-top: 30px;
+}
+
+.eg{
+  display: flex;
+  flex-direction: row;
+}
+
+.langue li ul{
+  margin-left:  8px;
+}
+
+table .link{
+  width: 120px;
+}
