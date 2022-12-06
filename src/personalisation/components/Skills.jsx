@@ -38,7 +38,7 @@ const Skills = () => {
             percentage:20,
         },
         {
-            text:"Domain Drivern Design",
+            text:"Domain Driven Design",
             percentage:40,
         },
     ]

@@ -23,7 +23,7 @@ function App() {
         <div class="zanaka mampisaraka-azy-roa"></div>
         <div class="zanaka">
             <h1 class="soratra-avia">Behamby Marinasy</h1>
-            <h2 class="soratra-agnivo">Full Stack Developer </h2>
+            <h2 class="soratra-agnivo">Full Stack Developer</h2>
         </div>
     </header>
     <div class="mampizara"></div>
@@ -56,7 +56,7 @@ function App() {
                 <table>
                     <tr>
                         <td>{languageIcon}</td>
-                        <td>Langues</td>
+                        <td>Languages</td>
                     </tr>
                 </table>
                 <ul className='langue'>
