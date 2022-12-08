@@ -3,17 +3,20 @@ import Education from './Education.jsx'
 import Work  from './Work.jsx';
 import '../styles/App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone, faLanguage, faEnvelope,faMapMarker} from '@fortawesome/free-solid-svg-icons'
-import {faWhatsapp, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import { faPhone, faLanguage, faEnvelope,faMapMarker, faLink} from '@fortawesome/free-solid-svg-icons'
+import {faWhatsapp, faGithub, faLinkedin, faGitlab} from '@fortawesome/free-brands-svg-icons'
 
 function App() {
   const callIcon = <FontAwesomeIcon icon = {faPhone} />
   const homeIcon = <FontAwesomeIcon icon = {faMapMarker} />
   const whatsappIcon = <FontAwesomeIcon icon={faWhatsapp} />
+
+  const linkIcon = <FontAwesomeIcon icon={faLink} />
   const mailIcon = <FontAwesomeIcon icon={faEnvelope} />
   const languageIcon = <FontAwesomeIcon icon={faLanguage} />
   const linkedInIcon = <FontAwesomeIcon icon={faLinkedin} />
   const githubIcon = <FontAwesomeIcon icon={faGithub} />
+  const gitlabIcon = <FontAwesomeIcon icon={faGitlab} />
   
   return <>
     <div className="App">
@@ -71,12 +74,20 @@ function App() {
                         <td>Link</td>
                     </tr>
                     <tr>
+                        <td>{linkIcon}</td>
+                        <td  className='u'><div className='link'><a href='https://marinasy-marti.web.app/'>https://marinasy-marti.web.app/</a></div></td>
+                    </tr>
+                    <tr>
                         <td>{linkedInIcon}</td>
-                        <td  className='u'><div className='link'><span>https://www.linkedin.com/in/marinasy-marti/</span></div></td> 
+                        <td  className='u'><div className='link'><br /><a href='https://www.linkedin.com/in/marinasy-marti/'>https://www.linkedin.com/in/marinasy-marti/</a></div></td> 
                     </tr>
                     <tr>
                         <td>{githubIcon}</td>
-                        <td  className='u'><div className='link'><br /><span>https://github.com/marinasy-marti</span></div></td>
+                        <td  className='u'><div className='link'><br /><a href='https://github.com/marinasy-marti'>https://github.com/marinasy-marti</a></div></td>
+                    </tr>
+                    <tr>
+                        <td>{gitlabIcon}</td>
+                        <td  className='u'><div className='link'><br /><a href='https://gitlab.com/behambymarinasy'>https://gitlab.com/behambymarinasy</a></div></td>
                     </tr>
                 </table>
             </aside>

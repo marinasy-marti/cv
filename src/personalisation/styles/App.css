@@ -126,3 +126,17 @@ aside ul li .ico{
 table .link{
   width: 120px;
 }
+
+table tr td a{
+  color: rgba(97, 90, 90, 0.705);
+}
+
+table tr td a:active{
+  color: rgba(97, 90, 90, 0.705);
+
+}
+
+table tr td a:visited{
+  color: rgba(97, 90, 90, 0.705);
+
+}
